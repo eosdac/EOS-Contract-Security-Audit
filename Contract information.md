@@ -20,7 +20,7 @@ Document
 </table>
 
 
-##Table of Contents
+## Table of Contents
 
 - [x] [Reviewer Introduction](#ReviewerIntroduction)
 - [x] [Scope](#Scope)
@@ -37,16 +37,16 @@ Document
 - [x] [Appendix B. Automated tools reports](#AppendixB)
 
 <a name="ReviewerIntroduction"></a>
-##Reviewer Introduction
+## Reviewer Introduction
 
 *Add reviewer introduction here*
 
 <a name="Scope"></a>
-##Scope
+## Scope
 
 The scope of the project is eosDAC token contract, which can be found on the link below
 
-####eosdactokens [https://github.com/eosdac/eosdactoken](https://github.com/eosdac/eosdactoken)
+#### eosdactokens [https://github.com/eosdac/eosdactoken](https://github.com/eosdac/eosdactoken)
 
 We have scanned the **eosdactoken** contract for commonly known and more specific vulnerabilities. Here are some of the commonly known vulnerabilities that are considered. \
 (Audited commit `b12d92020a4d097e73eca08bce88653dd467e543`)
@@ -63,7 +63,7 @@ We have scanned the **eosdactoken** contract for commonly known and more specifi
 
 
 <a name="ExecutiveSummary"></a>
-##Executive Summary
+## Executive Summary
 
 The code has been reviewed by peers and available as open source code on GitHub since before it was first deployed to the main net in June 2018. The original code was based on the eosio.token source code as written and tested by Block One. It has also been kept up to date with changes to the eosio.token contract since then. The eosio.token contract has been thoroughly tested and exercised through replication by many tokens on the network and through our own automated and manual testing on the Jungle test. We have maintained the code in that time performing incremental updates to improve performance, security and functionality. As yet we have had cause for concern about security issues and no report of any loss of value through a security vulnerability. The customised features we have added to the contract include locking the ability to transfer at the time of issue and functionality related to member registration. The features are believed to be low risk in relation to security concerns in the code since they are not involved token transfers other than preventing all transfer while a token is locked.
 
@@ -249,7 +249,7 @@ Term: The newmemterms action lasts for the duration of the processing of the con
 
 
  <a name="AuditOverview"></a>
-##Audit Overview
+## Audit Overview
 
 
 ### **Critical**
@@ -288,12 +288,12 @@ None
 During the audit the contract was manually reviewed, the auditor found no security issues that required fixing.
 
 <a name="Disclaimers"></a>
-###Disclaimers
+### Disclaimers
 
 The audit does not give any warranties on the security of the code. A single audit may not be enough, we highly encourage several independent audits and public bug bounties to ensure optimum security of the smart contracts. 
 
 <a name="TechnicalDisclaimer"></a>
-####Technical Disclaimer
+#### Technical Disclaimer
 
 Smart contract built on the top of EOSIO blockchain allow for a lot of features to be covered by tests, but the Turing completeness of C++ programming language and flexibility of the language leaves some space for unexpected runtime exceptions.
 
