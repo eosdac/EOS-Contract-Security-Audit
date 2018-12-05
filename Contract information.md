@@ -99,7 +99,7 @@ Term: The act of creation of this asset will expires at the conclusion of code e
 
 Parameters:
 
-*   to :  is a type of eosio accountname to issue tokens to
+*   to :  is a type of eosio name to issue tokens to
 *   quantity : is a type of eosio asset
 *   memo : is a string with a maximum of 256 characters
 
