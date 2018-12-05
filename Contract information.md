@@ -103,7 +103,7 @@ Parameters:
 *   quantity : is a type of eosio asset
 *   memo : is a string with a maximum of 256 characters
 
-Intent: The intent of {{ issue }} is to issue tokens {{ quantity }} and send them to the account specified {{ to }} using the transfer action. This requires a privileged account. A note {{ memo }} can be sent to the receiver.
+Intent: The intent of {{ issue }} is to issue tokens {{ quantity }} and send them to the account specified {{ to }} using the transfer action. This requires the contract owner account. A note {{ memo }} can be sent to the receiver.
 
 Term: The action lasts for the duration of the processing of the contract.
 
