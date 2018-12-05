@@ -283,7 +283,7 @@ No code style issues were identified.
 None
 
 <a name="Conclusion"></a>
-##Conclusion
+## Conclusion
 
 During the audit the contract was manually reviewed, the auditor found no security issues that required fixing.
 
@@ -298,11 +298,11 @@ The audit does not give any warranties on the security of the code. A single aud
 Smart contract built on the top of EOSIO blockchain allow for a lot of features to be covered by tests, but the Turing completeness of C++ programming language and flexibility of the language leaves some space for unexpected runtime exceptions.
 
 <a name="AppendixA"></a>
-####Appendix A. Evidences
+#### Appendix A. Evidences
 
 none
 
 <a name="AppendixB"></a>
-####Appendix B. Automated tools reports
+#### Appendix B. Automated tools reports
 
 none
