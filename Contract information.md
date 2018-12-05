@@ -87,7 +87,7 @@ The code has been reviewed by peers and available as open source code on GitHub 
 
 Parameters:
 
-*   issuer : is a type of eosio account_name
+*   issuer : is a type of eosio name
 *   maximum_supply :  is a type of asset
 *   transferred_locked : is either 1 (true) or 0 (false)
 
@@ -121,7 +121,7 @@ Term: The act of unlocking transfer on this asset will expires at the conclusion
 
 Parameters:
 
-*   from : is a type of eosio account_name for the owner of the tokens to burn.
+*   from : is a type of eosio name for the owner of the tokens to burn.
 *   quantity : is a type of eosio asset
 
 Intent: The intent of {{ burn }} is to allow a user to burn {{ quantity }} tokens that belong to them.
@@ -132,8 +132,8 @@ Term: The burn action lasts for the duration of the processing of the contract. 
 
 Parameters:
 
-*   from : is a type of eosio account_name
-*   to : is a type of eosio account_name
+*   from : is a type of eosio name
+*   to : is a type of eosio name
 *   quantity : is a type of eosio asset
 *   memo : is a string with a maximum of 256 characters
 
@@ -145,7 +145,7 @@ Term: The transfer action represents a change in the asset balances of the accou
 
 Parameters:
 
-*   sender : is a type of eosio account_name
+*   sender : is a type of eosio name
 *   agreedterms : is a hash reference to a document contained in a string with a maximum of 256 characters
 
 Intent: The intent of memberreg is to indicate that the account has agreed to the terms of the DAC. It will update an internal database of member accounts. This action must supply the hash of the agreement in {{ agreedterms }}, it will hold the most recently agreed to, and can be called multiple times to update the hash.
@@ -156,7 +156,7 @@ Term: This action lasts for the duration of the processing of the contract. The 
 
 Parameters:
 
-*   sender is a type of eosio account_name
+*   sender is a type of eosio name
 
 Intent: The intent of memberunreg is to allow an account {{ sender }} to unregister its membership.
 
